@@ -1,0 +1,35 @@
+%section.team_and_hacks.span12.make-center.no-left-margin
+  %article.team.span6
+    %h3.span2
+      Team
+    .clear
+    %p
+      We specialize in developing user centric Web applications. Our iterative design and development model combined with high customer collaboration ensures we maximize customer value. We believe that thought the right tools and good development practices are the key to solving complex problems.
+    = link_to "Read More >>>", about_us_path, class: "read-more"
+
+  %article.hacks.span6
+    %h3.span2
+      Hacks
+    .clear
+    %ul
+      .row
+        %li.pull-left
+          Node Toolbox
+        %li.pull-right.span9.no-left-margin
+          = link_to "www.nodetoolbox.com", "www.nodetoolbox.com"
+      .row
+        %li.pull-left
+          Fake Dynamo
+        %li.pull-right.span9.no-left-margin
+          = link_to "github.com/ananthakumaran/fake_dynamo", "github.com/ananthakumaran/fake_dynamo"
+      .row
+        %li.pull-left
+          Devsync
+        %li.pull-right.span9.no-left-margin
+          = link_to "github.com/ciju/devsync", "github.com/ciju/devsync"
+      .row
+        %li.pull-left
+          Redis Proxy
+        %li.pull-right.span9.no-left-margin
+          = link_to "github.com/sreeix/redis-proxy", "github.com/sreeix/redis-proxy"
+    = link_to "Read More >>>", our_hacks_path, class: "read-more"

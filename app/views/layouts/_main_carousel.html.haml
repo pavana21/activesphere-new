@@ -1,0 +1,12 @@
+#myCarousel.carousel.slide.main-carousel
+  %ol.carousel-indicators
+    %li.active{"data-target" => "#myCarousel", "data-slide" => "0"}
+    %li{"data-target" => "#myCarousel", "data-slide" => "1"}
+    %li{"data-target" => "#myCarousel", "data-slide" => "2"}
+  .carousel-inner
+    .active.item.small-image1
+      = image_tag(asset_path("big-image1.jpg"))
+    .item.small-image2
+      = image_tag(asset_path("big-image2.jpg"))
+    .item.small-image3
+      = image_tag(asset_path("big-image3.jpg"))

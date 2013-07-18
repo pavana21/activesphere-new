@@ -1,0 +1,54 @@
+$light-grey: #BCBCBC;
+$dark-grey: #2b2b2b;
+$blue: #2096E1;
+$light-blue: #94abc6;
+
+body, h1, h2, h3, h4, h5, h6, p, span, a, input, textarea, select, li, td, th {
+  font-family: 'Georgia', sans-serif;
+  color: $dark-grey;
+}
+body.container-fluid {
+  padding: 0px;
+
+  header#header-part, section#main-content, footer {
+    width: 92%;
+    margin: 0px auto;
+  }
+  .blue {
+    color: $blue;
+  }
+  .light-grey {
+    color: $light-grey;
+  }
+  .footer-light-grey {
+    color: #999;
+  }
+  .footer-dark-grey {
+    color: #555;
+  }
+
+  .dark-grey {
+    color: $dark-grey;
+  }
+  .no-left-margin {
+    margin-left: 0px;
+  }
+  .row-fluid {
+    .make-center {
+      float: none;
+      margin: 0px auto;
+      display: block;
+    }
+  }
+  .clear {
+    clear: both;
+  }
+  #myCarousel img {
+    width: 100%;
+  }
+}
+
+img
+{
+ max-width:100%;
+}

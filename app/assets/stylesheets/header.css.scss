@@ -1,0 +1,20 @@
+header#header-part {
+  article.navigation-part {
+    width: 65%;
+    margin: 22px 0px;
+    text-align: right;
+    ul {
+      list-style: none;
+      li {
+        margin-right: 20px;
+        text-transform: capitalize;
+        display: inline;
+        font-style: italic;
+      }
+    }
+  }
+  article.logo-part {
+    margin-top: 10px;
+    width: 35%;
+  }
+}

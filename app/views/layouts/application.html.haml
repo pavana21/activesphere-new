@@ -1,0 +1,47 @@
+!!! Strict
+%html{lang: "en"}
+  %head
+    %meta{:content => "L_hGWN3oT-fBOYKgOIM2HQ9k4bYwgawmHNJcnVzTy9Y", :name => "google-site-verification"}/
+    %meta{:content => "Ruby Rails Web Development Bangalore India", :name => "title"}/
+    %meta{:content => "Ruby on Rails developers. Contact ActiveSphere for custom ruby on rails development in Bangalore, India", :name => "description"}/
+    %meta{:content => "Ruby Rails Web Development RoR RubyOnRails Ruby on Rails Nodejs Node.js Bangalore India offshore application development scaling appdev ", :name => "keywords"}/
+    %meta{:content => "index, follow", :name => "robots"}/
+    %meta{name: 'viewport', content: "initial-scale=1.0,width=device-width"}
+
+    %meta{name:"google", value:"notranslate"}
+
+    %script{:type => "text/javascript",
+            :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"}
+
+    = stylesheet_link_tag  "application", :media => "all"
+    = javascript_include_tag "application"
+    = stylesheet_link_tag "http://fonts.googleapis.com/css?family=Open+Sans:600,400,700"
+    = stylesheet_link_tag "http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+    = csrf_meta_tags
+    = render :partial => "home/olark_chat"
+    %title
+      ActiveSphere: - Ruby Rails and Node.js Consulting
+  %body.container-fluid
+    %section.row-fluid.content
+      = render partial: "layouts/header"
+      .clear
+      %section.content.carousel-part
+        = render partial: "layouts/main_carousel"
+        .clear
+      %section#main-content
+        .container-body.span12.no-left-margin.row-fluid
+          = yield
+      %footer.span12.no-left-margin.row-fluid
+        = render partial: "layouts/footer"
+    = yield(:javascript)
+
+    :javascript
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-10221263-10']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();

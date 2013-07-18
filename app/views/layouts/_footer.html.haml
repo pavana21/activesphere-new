@@ -1,0 +1,37 @@
+%section.no-left-margin.make-center.span12
+  %article.span4.logo-part.no-left-margin
+    = link_to image_tag(asset_path("footer-logo.png"), class: "make-center"), root_path, class: "make-center span8"
+    .clear
+    %p.span8.make-center
+      Ruby on Rails and Node.js Consulting
+    .clear
+    %article.social-icons.span4.make-center
+      = link_to image_tag(asset_path("fb.png"), class: "make-center"), "#", class: "span4"
+      = link_to image_tag(asset_path("linkedin.png"), class: "make-center"), "#", class: "span4"
+      = link_to image_tag(asset_path("twitter.png"), class: "make-center"), "#", class: "span4"
+  %article.span4.no-left-margin.middle-part
+    %p.footer-dark-grey
+      Drop in at:
+    .clear
+    %p.footer-light-grey
+      1096, Ground Floor, Indiranagar 12th 'A' Main 
+      %br/
+      HAL 2nd Stage, Bangalore 560008, India.
+    .clear
+    %p.footer-dark-grey
+      Dial at:
+    .clear
+    %p.footer-light-grey
+      +91 9663681428
+    .clear
+    %p.footer-dark-grey
+      Email:
+    .clear
+    %p.footer-light-grey
+      mail@activesphere.com
+  %article.span4.no-left-margin
+    = image_tag(asset_path("map.png"), class: "pull-right")
+.clear
+%hr.span10.make-center
+.make-center.span2.copyright
+  #company &copy; 2012 ACTIVESPHERE

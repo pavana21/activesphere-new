@@ -1,0 +1,48 @@
+footer {
+  background-color: #202020;
+  padding: 30px 10px;
+  section.span12 {
+    min-height: 210px;
+  }
+  article {
+    &:last-child {
+      margin-right: 20px;
+    }
+    p {
+      font-style: italic;
+      text-align: center;
+    }
+  }
+  article.logo-part {
+    p {
+      color: #555;
+    }
+  }
+  article.logo-part, article:last-child {
+    margin-top: 25px;
+  }
+  article:last-child {
+    margin-right: 10px;
+  }
+  article.middle-part {
+    margin-left: 30px;
+  }
+  .social-icons.span2 a {
+    display: inline;
+    text-align: center;
+    margin: 0px auto;
+  }
+  hr.span10.make-center {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #333;
+    min-height: 2px;
+    border-top: 1px solid #000;
+  }
+  .copyright {
+    font-style: italic;
+    #company {
+      margin-top: 15px;
+    }
+  }
+}

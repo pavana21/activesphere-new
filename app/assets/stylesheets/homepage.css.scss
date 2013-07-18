@@ -1,0 +1,273 @@
+section.text-content {
+  h3 {
+    font-size: 150%;
+    font-style: italic;
+    text-align: center;
+  }
+  p {
+    font-size: 68.8%;
+    font-family: "Open sans-serif";
+    color: #888;
+    text-align: center;
+  }
+  section.functionalities {
+    h3.span10, p.span10 {
+      text-align: center;
+    }
+    h3 {
+      font-style: normal;
+      color: #555;
+      font-size: 112.5%;
+      font-weight: normal;
+
+    }
+  }
+  // Team and Hacks Part
+  section.team_and_hacks {
+    .read-more {
+      color: $blue;
+      font-weight: bold;
+      font-family: "Open Sans";
+      float: right;
+    }
+    article.team {
+      h3 {
+        text-align: justify;
+      }
+      p {
+        font-size: 100%;
+        font-family: "Open Sans";
+        line-height: 27px;
+        color: $dark-grey;
+        text-align: justify;
+      }
+    }
+    article.hacks {
+      .row {
+        margin-left: 0px;
+        margin-bottom: 1%;
+        a {
+          color: $light-blue;
+        }
+        li.pull-right {
+          list-style: none;
+          text-align: right;
+        }
+      }
+    }
+  }
+
+  // Testimonials Part
+  section#testimonials {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    article {
+      background-color: #e7e7e7;
+      padding: 20px;
+      p {
+        font-size: 100%;
+        line-height: 27px;
+        color: $dark-grey;
+      }
+      p.center {
+        text-align: center;
+        color: $light-grey;
+
+      }
+    }
+  }
+
+  // Portfolios Part
+  section.portfolio {
+    #myCarousel {
+      li.span3 {
+        width: 23.07692%;
+        float: left;
+        margin-left: 1%;
+        .caption h5 {
+          font-size: 75%;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+
+  section#tech {
+    width: 63%;
+    margin: 0px auto;
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    span {
+      margin-right: 4%;
+    }
+    span#rubybg {
+        background-image:url("/assets/ruby-color.png");
+        height:30px;
+        width:30px;
+        float:left;
+    }
+
+    #ruby {
+        background-image:url("/assets/ruby.png");
+        height:30px;
+        width:30px;
+        float:left;
+        opacity:1.0;
+        -webkit-transition:all 0.4s ease-in-out;
+        -moz-transition:all 0.4s ease-in-out;
+        -o-transition:all 0.4s ease-in-out;
+        transition:all 0.4s ease-in-out;
+    }
+
+    #ruby:hover {
+        /*background-image:url("../images/tech/color/rubyXx50.png");*/
+        height:30px;
+        opacity:0;
+
+    }
+
+    span#couchdbbg {
+        background-image:url("/assets/couchdb-color.png");
+        height:30px;
+        width:36px;
+        float:left;
+    }
+
+    #couchdb {
+        background-image:url("/assets/couchdb.png");
+        height:30px;
+        width:36px;
+        float:left;
+        opacity:1.0;
+        -webkit-transition:all 0.4s ease-in-out;
+        -moz-transition:all 0.4s ease-in-out;
+        -o-transition:all 0.4s ease-in-out;
+        transition:all 0.4s ease-in-out;
+    }
+
+    #couchdb:hover {
+        /*background-image:url("../images/tech/color/couchdb-logoXx50.png");*/
+        height:30px;
+        opacity:0;
+    }
+
+    span#redisbg{
+        background-image:url("/assets/redis-color.png");
+        height:30px;
+        width:94px;
+        float:left;
+    }
+
+    #redis{
+        background-image:url("/assets/redis.png");
+        height:30px;
+        width:94px;
+        float:left;
+        opacity:1.0;
+        -webkit-transition:all 0.4s ease-in-out;
+        -moz-transition:all 0.4s ease-in-out;
+        -o-transition:all 0.4s ease-in-out;
+        transition:all 0.4s ease-in-out;
+    }
+
+
+    #redis:hover {
+        /*background-image:url("../images/tech/color/redis-Xx50.png");*/
+        height:30px;
+        opacity:0;
+    }
+
+
+    #mongodbbg{
+        background-image:url("/assets/mongodb-color.png");
+
+        height:30px;
+        width:103px;
+        float:left;
+    }
+
+    #mongodb{
+        background-image:url("/assets/mongodb.png");
+
+        height:30px;
+        width:103px;
+
+        float:left;
+        opacity:1.0;
+        -webkit-transition:all 0.4s ease-in-out;
+        -moz-transition:all 0.4s ease-in-out;
+        -o-transition:all 0.4s ease-in-out;
+        transition:all 0.4s ease-in-out;
+    }
+
+
+    #mongodb:hover {
+        /*background-image:url("../images/tech/color/mongo-db-logo170x50.png");*/
+
+        height:30px;
+
+        opacity:0;
+    }
+
+    span#cassandrabg{
+        background-image:url("/assets/cassandra-color.png");
+        height:30px;
+        width:150px;
+
+        float:left;
+
+    }
+
+    #cassandra{
+        background-image:url("/assets/cassandra.png");
+        height:30px;
+        width:150px;
+
+        float:left;
+        opacity:1.0;
+        -webkit-transition:all 0.4s ease-in-out;
+        -moz-transition:all 0.4s ease-in-out;
+        -o-transition:all 0.4s ease-in-out;
+        transition:all 0.4s ease-in-out;
+    }
+
+
+    #cassandra:hover {
+        /*background-image:url("../images/tech/color/Cassandra_logoXx50.png");*/
+        height:30px;
+
+        opacity:0;
+    }
+
+    span#nodejsbg{
+        background-image:url("/assets/nodejs-color.png");
+        height:25px;
+        width:92px;
+
+        float:left;
+    }
+
+    #nodejs{
+        background-image:url("/assets/nodejs.png");
+        height:25px;
+        width:92px;
+
+        float:left;
+        opacity:1.0;
+        -webkit-transition:all 0.4s ease-in-out;
+        -moz-transition:all 0.4s ease-in-out;
+        -o-transition:all 0.4s ease-in-out;
+        transition:all 0.4s ease-in-out;
+
+    }
+
+    #nodejs:hover {
+        /*background-image:url("../images/tech/color/nodejs-light-183x50.png");*/
+        height:25px;
+
+        opacity:0;
+    }
+  }
+}

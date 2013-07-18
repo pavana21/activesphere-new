@@ -1,0 +1,110 @@
+/* Large desktop */
+@media  (min-width: 1200px) {  }
+
+/* Portrait tablet to landscape and desktop */
+@media  (min-width: 768px) and (max-width: 979px) {  }
+
+/* Landscape phone to portrait tablet */
+@media  (max-width: 767px) {
+  body.container-fluid {
+    #header-part {
+      article.logo-part {
+        width: 300px;
+      }
+      article.navigation-part {
+        width: 400px;
+        float: none;
+        ul {
+          margin-left: 0px;
+          text-align: center;
+        }
+      }
+      article.logo-part, article.navigation-part {
+        margin: 0px auto;
+        margin-top: 12px;
+      }
+    }
+    section#main-content {
+      section.functionalities {
+        .functionality {
+          width: 100px;
+        }
+        article.span3 {
+          width: 45%;
+          float: left;
+          margin-right: 5%;
+          margin-bottom: 2%;
+        }
+      }
+      section.team_and_hacks {
+        article.team, article.hacks {
+          clear: both;
+        }
+      }
+    }
+    section.text-content section#tech {
+      width: 105%;
+      span {
+        margin-right: 2%;
+      }
+    }
+  }
+}
+
+/* Landscape phones and down */
+@media  (max-width: 480px) {
+  body.container-fluid {
+    #header-part {
+      article.logo-part {
+        width: 250px;
+      }
+      article.navigation-part {
+        width: 320px;
+        li {
+          margin-right: 10px;
+        }
+        a {
+          font-size: 75%;
+        }
+      }
+    }
+    section#main-content {
+      section.functionalities {
+        article.span3 {
+          width: 100%;
+          margin-bottom: 2%;
+        }
+      }
+    }
+    section.content.carousel-part {
+      .item img {
+        display: none;
+      }
+      .small-image1 {
+        background: url(asset_path("small-image1.jpg", "image")) no-repeat center center;
+        width: 100%;
+        height: 320px;
+      }
+
+      .small-image2 {
+        background: url(asset_path("small-image2.jpg", "image")) no-repeat center center;
+        width: 100%;
+        height: 320px;
+      }
+
+      .small-image3 {
+        background: url(asset_path("small-image3.jpg", "image")) no-repeat center center;
+        width: 100%;
+        height: 320px;
+      }
+    }
+  }
+}
+
+@media  (min-width: 241px) and (max-width: 320px) {
+
+}
+
+@media  screen and (max-width: 240px) {
+
+}

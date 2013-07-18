@@ -1,0 +1,18 @@
+%header.span12.no-left-margin.make-center#header-part
+  %article.logo-part.span3
+    = link_to image_tag(asset_path("header-logo.png")), root_path, class: "span12"
+  %article.navigation-part.span5.no-left-margin.pull-right
+    %nav
+      %ul
+        %li
+          %a{href: root_path} home
+        %li
+          %a{href: our_hacks_path} hacks
+        %li
+          %a{href: contact_path} contact
+        %li
+          %a{href: about_us_path} about
+        %li
+          %a{href: careers_path} careers
+        %li
+          %a{href: 'http://blog.activesphere.com/'} blog
